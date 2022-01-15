@@ -5,3 +5,10 @@ body {
     width: 100%;
 }
 
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
