@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+img {
+    border-radius: 15px;
+}
+
 main {
     align-items: center;
     display: flex;
@@ -20,18 +24,29 @@ main > section img {
 }
 
 main > section button {
-    background-color: #00bf72;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    font-family: EuclidBold;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: -0.6px;
-    line-height: 20px;
-    padding: 9px 23px;
     text-transform: uppercase;
-
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+}
+Button:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+Button:active {
+	position:relative;
+	top:1px;
 }
 
 #detalhes-container {
